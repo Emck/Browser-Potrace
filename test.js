@@ -1,4 +1,4 @@
-var potrace = require('./potrace/index');
+var potrace = require('./index');
 
 
 potrace.trace(ImagePixel, { threshold: 40 }, function(err, svg) {
